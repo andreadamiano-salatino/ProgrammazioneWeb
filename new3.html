@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/terzo.css">
+    <title>Web Form</title>
+</head>
+
+<body>
+    <h1>Modulo di Registrazione</h1>
+
+    <form ><!--inserisce un form-->
+        <fieldset class="bordoRosso">
+            <legend class="Tviolet">Dati Anagrafici</legend>
+            <label>Cognome</label>
+            <input type="text" name="cognome" class="TestoVerde"><!--inserimento dato-->
+            <br />
+            <label>Nome</label>
+            <input type="text" name="nome">
+            <br />
+            <label>Indirizzo</label>
+            <input type="text" name="indirizzo">
+            <br />
+            <label>Numero Figli</label>
+            <input type="text" name="figli">
+            <br />
+            <label>Citt&agrave;</label>
+            <select name="citta">
+                <option value="Altamura">Altamura</option>
+                <option value="Bari">Bari</option>
+                <option value="Gravina">Gravina</option>
+                <option value="Lecce">Lecce</option>
+                <option value="Milano">Milano</option>
+            </select>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Preferenze</legend>
+            <p>Qual &egrave; la tua squadra del cuore</p>
+            <input type="radio" name="SquadraCuore" value="Bari" >
+            <label>Bari</label><br />
+            <input type="radio" name="SquadraCuore" value="Juve" >
+            <label>Juve</label><br />
+            <input type="radio" name="SquadraCuore" value="Inter" >
+            <label>Inter</label><br />
+            <input type="radio" name="SquadraCuore" value="Milan" >
+            <label>Milan</label><br />
+            <p>Qual &egrave; la tua squadra del cuore (qui puoi scegliere + 1)</p>
+            <input type="checkbox" name="SquadraCuoreMultipla" value="Bari" >
+            <label>Bari</label><br />
+            <input type="checkbox" name="SquadraCuoreMultipla" value="Juve" >
+            <label>Juve</label><br />
+            <input type="checkbox" name="SquadraCuoreMultipla" value="Inter" >
+            <label>Inter</label><br />
+            <input type="checkbox" name="SquadraCuoreMultipla" value="Milan" >
+            <label>Milan</label>
+            <p>Pasta predferita</p>
+            <input list="pasta" name="pastaScelta">
+            <datalist id="pasta">
+                <option value="spaghetti"></option>
+                <option value="orecchiette"></option>
+                <option value="carbonara"></option>
+                <option value="brodo"></option>
+            </datalist>
+            <br />
+        </fieldset>
+        <p class="allineaDestra">
+        <label>Lascia un commento</label><br />
+        <textarea name="commento" cols="30" rows="3"></textarea>
+        </p>
+        <br />
+        
+        <input type="submit">
+        <input type="reset">
+    
+    </form>
+
+
+
+</body>
+
+</html>

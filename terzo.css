@@ -1,0 +1,38 @@
+/** {
+    color: red;
+}
+*/
+h1 {
+    color: aqua;
+}
+
+.TestoVerde {
+    color: green;
+}
+
+textarea {
+    resize: none;
+  }
+
+/*legend {
+    color: blueviolet;
+}
+*/
+
+.Tviolet {
+    color: blueviolet;
+}
+
+.bordoRosso {
+    border-color: red;
+}
+
+.allineaDestra {
+    text-align: center;
+}
+
+
+
+
+
+

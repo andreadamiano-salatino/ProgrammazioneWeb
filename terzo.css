@@ -1,7 +1,7 @@
-/** {
+/* {
     color: red;
 }
-*/
+
 h1 {
     color: aqua;
 }
@@ -14,10 +14,10 @@ textarea {
     resize: none;
   }
 
-/*legend {
+legend {
     color: blueviolet;
 }
-*/
+
 
 .Tviolet {
     color: blueviolet;
@@ -27,7 +27,45 @@ textarea {
     border-color: red;
 }
 
-.allineaDestra {
+.allineaCentro {
+    text-align: center;
+}
+
+div p {
+    background-color: yellow;
+}
+
+p span {
+    color: red;
+    font-style: italic;
+}*/
+
+body {
+    margin-top: 150px;
+    border: 15px solid green;
+    padding: 200px;
+  }
+
+p {
+    border: solid 10px red;
+    padding: 20px;
+}
+
+table {
+    caption-side: top;
+    width: 100%;
+    background-color: silver;
+    border: 5px solid yellowgreen;
+    padding: 20px;
+    border-spacing: 25px;
+}
+
+td {
+    border: 5px solid red;
+    padding: 50px;
+}
+
+.soldi {
     text-align: center;
 }
 

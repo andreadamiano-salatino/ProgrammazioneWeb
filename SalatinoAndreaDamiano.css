@@ -1,0 +1,22 @@
+body { 
+    background-color: #FFCC00;
+
+}
+
+h1 {
+    background-color: #FF0000;
+    text-align: right;
+}
+
+footer {
+    background-color: #FFCCFF;
+}
+
+.testoRosso {
+    color: red;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
